@@ -1,19 +1,17 @@
-vite.config.ts
-で
-base: '/svg-animator/',
+# デプロイ時の設定メモ
 
+## GitHub Pages（/svg-animator/ 配下で公開する場合）
+
+vite.config.ts
+- base: '/svg-animator/'
 
 src/main.tsx
-で
-「<Router basename="/svg-animator">」
+- <Router basename="/svg-animator">
 
-この2つをセットでビルドすればOK！
+## FTP で普通のサーバーにアップロードする場合
 
+vite.config.ts
+- base: '/'
 
-普通のレンタルサーバーへのFTPアップなら、
-
-base: '/',
-
-<Router>
-
-にもどしてビルド
+src/main.tsx
+- <Router>（basename なし）
