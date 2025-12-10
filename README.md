@@ -5,7 +5,7 @@ base: '/svg-animator/',
 
 src/main.tsx
 で
-<Router basename="/svg-animator">
+「<Router basename="/svg-animator">」
 
 この2つをセットでビルドすればOK！
 
