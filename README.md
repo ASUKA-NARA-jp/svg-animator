@@ -1,3 +1,5 @@
+SVG から中間フレームを生成して APNG を作れるツールです
+
 # デプロイ時の設定メモ
 
 ## GitHub Pages（/svg-animator/ 配下で公開する場合）
